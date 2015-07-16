@@ -1,0 +1,19 @@
+name: Announcements
+description: Send regular announcements to players
+author: StarTux
+version: 0.1
+main: com.winthier.announcements.AnnouncementsPlugin
+depend: []
+commands:
+  announcements:
+    aliases: [ ann ]
+    description: Admin interface
+    usage: |-
+      /ann reload - Reload the configuration.
+      /ann list [group] - List groups or announcements.
+      /ann show <group> <index> - Display announcement to yourself.
+      /ann announce <group> <index> - Announce announcement.
+permissions:
+  announcements.announcements:
+    description: Use the /announcements command
+    default: op
