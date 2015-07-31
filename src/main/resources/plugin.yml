@@ -17,3 +17,12 @@ permissions:
   announcements.announcements:
     description: Use the /announcements command
     default: op
+  announcement.guest:
+    description: Receive guest announcements
+    default: false
+  announcement.info:
+    description: Receive info announcements
+    default: false
+  announcement.event:
+    description: Receive event announcements
+    default: false
